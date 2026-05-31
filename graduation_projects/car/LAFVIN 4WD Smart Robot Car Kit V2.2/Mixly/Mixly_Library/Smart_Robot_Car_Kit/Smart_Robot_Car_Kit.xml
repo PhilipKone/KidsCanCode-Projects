@@ -1,0 +1,129 @@
+type="company" 
+block="block/Smart_Robot_Car_Kit.js"
+generator="generator/Smart_Robot_Car_Kit.js" 
+language="language/Smart_Robot_Car_Kit"
+lib="Smart_Robot_Car_Kit"
+hardware="hardware/arduino"
+media="media/LA4WDCar" 
+
+
+<script type="text/javascript" src="../../blocks/company/Smart_Robot_Car_Kit.js"></script>
+<script type="text/javascript" src="../../generators/arduino/company/Smart_Robot_Car_Kit.js"></script>
+
+<category id="LA_Arduino_Kit" name="LAFVIN_Smart_Robot_Car_Kit" colour="#777777">
+    <block type="ks4wd_FRONT">
+			<value name="speed_F">
+				<shadow type="math_number">
+					<field name="NUM">50</field>
+				</shadow>
+			</value>
+	</block>
+
+	<block type="ks4wd_BACK">
+			<value name="speed_B">
+				<shadow type="math_number">
+					<field name="NUM">50</field>
+				</shadow>
+			</value>
+	</block>
+
+	<block type="ks4wd_ROTATE_LEFT">
+			<value name="speed_L">
+				<shadow type="math_number">
+					<field name="NUM">50</field>
+				</shadow>
+			</value>
+	</block>
+
+	<block type="ks4wd_ROTATE_RIGHT">
+			<value name="speed_R">
+				<shadow type="math_number">
+					<field name="NUM">50</field>
+				</shadow>
+			</value>
+	</block>
+
+
+	<block type="ks4wd_STOP">
+			
+	</block>
+	
+	
+    <block type="ks4wd_FORWARD_TURN">
+			<value name="speed_F">
+				<shadow type="math_number">
+					<field name="NUM">40</field>
+				</shadow>
+			</value>
+			<value name="speed_F2">
+				<shadow type="math_number">
+					<field name="NUM">90</field>
+				</shadow>
+			</value>
+    </block>
+
+    <block type="ks4wd_BACKWARD_TURN">
+      <value name="speed_B">
+        <shadow type="math_number">
+          <field name="NUM">90</field>
+        </shadow>
+      </value>
+      <value name="speed_B2">
+        <shadow type="math_number">
+          <field name="NUM">40</field>
+        </shadow>
+      </value>
+    </block>
+	
+	
+	
+	
+	<!--          keyes_4wd超声波               -->
+    <block type="ks4wd_sr04">
+      
+    </block>
+
+    <!--          循迹传感器               -->
+    <block type="ks4wd_track">
+      
+    </block>
+
+	
+	<!--          keyes_4wd蓝牙接收               -->
+    <block type="ks4wd_bluetooth">
+      
+    </block>
+	
+	<block type="ks_initir">
+        <value name="initir">
+				<shadow type="math_number">
+					<field name="NUM">3</field>
+				</shadow>
+		</value>
+    </block>
+	
+	<block type="ks_irKeyPress"></block>
+	
+	
+	
+	<block type="ks_Tank_SG90servo">
+			
+			<value name="angle">
+				<shadow type="math_number">
+					<field name="NUM">90</field>
+				</shadow>
+			</value>
+	</block>
+	
+	
+	<!--              Infrared obstacle avoidance sensor              -->
+	<block type="ks_Tank_IR_Avoidance">
+	
+	</block>
+	
+	<block type="ks_Tank_light">
+	
+	</block>
+	
+</category>
+ 
