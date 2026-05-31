@@ -1,0 +1,36 @@
+# Ignore system and IDE executables/binaries
+*.exe
+*.dll
+*.zip
+*.rar
+*.mp4
+*.apk
+*.avi
+*.mov
+*.mkv
+*.docx
+*.pdf
+*.msi
+
+# Ignore VS Code settings/history
+.vscode/
+.history/
+.theia/
+.antigravityignore
+
+# Ignore standard Arduino IDE folders (system JRE, compilers, tools, drivers)
+Arduino/java/
+Arduino/lib/
+Arduino/tools/
+Arduino/tools-builder/
+Arduino/hardware/
+Arduino/drivers/
+Arduino/revisions.txt
+Arduino/arduino.l4j.ini
+Arduino/arduino_debug.l4j.ini
+Arduino/wrapper-manifest.xml
+Arduino/libraries/
+
+# Ignore temporary/backup folders
+graduation_projects/backups/
+graduation_projects/.vscode/
